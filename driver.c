@@ -56,6 +56,7 @@ int main() {
 				y++;
 			}
 		} else if (key == 't') {
+			//Draw Sierpinski Triangle
 			clear_screen(src);
 			int firstX = (width / 2) + 80;
 			int firstY = (height / 2) - 250;
