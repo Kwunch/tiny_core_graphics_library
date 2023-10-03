@@ -8,7 +8,6 @@
 #include <asm/termbits.h>
 #include <time.h>
 #include <sys/time.h>
-
 #include "graphics.h"
 
 #define framebuffer_path "/dev/fb0" //On screen framebuffer path
