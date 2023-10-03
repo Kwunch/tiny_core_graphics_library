@@ -33,6 +33,7 @@ typedef unsigned short color_t;
 #define GREEN ((color_t)green)
 #define HILBERT (color_t)0x1800
 #define RED (color_t)red
+#define ORANGE (color_t)orange
 
 //#define RGB(r, g, b) (color_t)(((r & 0x1F) << 11) | ((g & 0x3F) << 5) | ((b & 0x1F) << 0))
 #define RGB(r, g, b) ((color_t)(((r >> 3) << 11) | ((g >> 2) << 5) | b >> 3))
